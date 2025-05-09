@@ -28,7 +28,7 @@ h2
 
 .header-contact-link
 {
-    color: #434455;
+    color: currentColor;
 }
 
 .header-contact-link:hover
