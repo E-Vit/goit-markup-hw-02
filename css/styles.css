@@ -46,3 +46,23 @@ h2
 {
     color: #404BBF;
 }
+
+.logo-web
+{
+    text-transform: uppercase;
+    font-family: raleway;
+    color: #4D5AE5;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+}
+
+.logo-studio
+{
+    text-transform: uppercase;
+    font-family: raleway;
+    color: #2E2F42;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+}
