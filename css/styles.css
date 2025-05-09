@@ -1,0 +1,43 @@
+body 
+{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FCFCFC;
+    font-size: 16px; 
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+a
+{
+    text-decoration: none; 
+}
+h1
+{}
+h2
+{}
+.header-menu-link
+{
+    color: #2E2F42;
+}
+
+.header-menu-link:focus,.header-menu-link:hover
+{
+    color: #404BBF;
+}
+
+.header-contact-link:hover
+{
+    color: #404BBF;
+}
+ 
+.introduction-banner button
+{
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.introduction-banner button:hover
+{
+    color: #404BBF;
+}
