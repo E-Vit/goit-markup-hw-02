@@ -26,6 +26,11 @@ h2
     color: #404BBF;
 }
 
+.header-contact-link
+{
+    color: currentColor;
+}
+
 .header-contact-link:hover
 {
     color: #404BBF;
