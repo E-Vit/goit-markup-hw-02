@@ -3,6 +3,7 @@ body
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FCFCFC;
+    font-weight: 400;
     font-size: 16px; 
     line-height: 24px;
     letter-spacing: 2%;
@@ -12,16 +13,58 @@ a
 {
     text-decoration: none; 
 }
+
 h1
-{}
+{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 2%;
+}
+
 h2
-{}
+{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+h3
+{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+.logo-web {
+    text-transform: uppercase;
+    font-family: raleway;
+    color: #4D5AE5;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+}
+
+.logo-studio {
+    text-transform: uppercase;
+    font-family: raleway;
+    color: #2E2F42;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+}
+
 .header-menu-link
 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2%;
     color: #2E2F42;
 }
 
-.header-menu-link:focus,.header-menu-link:hover
+.header-menu-link:focus,
+.header-menu-link:hover
 {
     color: #404BBF;
 }
@@ -36,33 +79,30 @@ h2
     color: #404BBF;
 }
  
+.introduction-banner
+{
+    color: #FFFFFF;
+    background: #2E2F42;
+}
+
 .introduction-banner button
 {
-    color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: #FFFFFF;
+    background: #4D5AE5;
     cursor: pointer;
 }
 
 .introduction-banner button:hover
 {
-    color: #404BBF;
+    background: #404BBF;
 }
 
-.logo-web
+.footer-slogan
 {
-    text-transform: uppercase;
-    font-family: raleway;
-    color: #4D5AE5;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
-}
-
-.logo-studio
-{
-    text-transform: uppercase;
-    font-family: raleway;
-    color: #2E2F42;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
+    color: #F4F4FD;
+    background: #2E2F42;
 }
