@@ -58,20 +58,27 @@ h3
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.header-menu-link:focus,
 .header-menu-link:hover
+.header-menu-link:focus,
 {
     color: #404BBF;
 }
 
+.header-contact
+{
+ font-style: normal;   
+}
+
 .header-contact-link
 {
-    font-style: normal;
-    color: currentColor;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
 }
 
 .header-contact-link:hover,
